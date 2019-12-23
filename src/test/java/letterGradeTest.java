@@ -15,7 +15,7 @@ public class letterGradeTest {
         char gradeD =  LetterGrade.letterGrade(69);
         assertEquals(gradeD, 'D');
         char gradeF =  LetterGrade.letterGrade(29);
-        assertEquals(gradeD, 'D');
+        assertEquals(gradeF, 'F');
     }
 
     @Test
@@ -24,6 +24,6 @@ public class letterGradeTest {
         assertEquals(gradeLessZero, 88);
         assertEquals(gradeLessZero, 'X');
         char gradeOverHundred = LetterGrade.letterGrade(101);
-        assertEquals(gradeLessZero, 88);
+        assertEquals(gradeOverHundred, 88);
     }
 }
