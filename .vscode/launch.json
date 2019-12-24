@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LetterGradeMain",
+            "request": "launch",
+            "mainClass": "LetterGradeMain",
+            "projectName": "se_hw4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ShowGrade",
             "request": "launch",
             "mainClass": "ShowGrade",
