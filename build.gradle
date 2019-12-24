@@ -28,6 +28,8 @@ jacocoTestReport {
         xml.enabled false
         csv.enabled false
         html.destination file("${buildDir}/jacocoHtml")
+        sourceSets sourceSets.main
+        executionData = fileTree(buildDir).include("/jacoco/*.exec")
     }
 }
 

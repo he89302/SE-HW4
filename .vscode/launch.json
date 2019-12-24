@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ShowGrade",
+            "request": "launch",
+            "mainClass": "ShowGrade",
+            "projectName": "se_hw4"
+        }
+    ]
+}
