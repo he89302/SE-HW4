@@ -6,15 +6,15 @@ public class letterGradeTest {
 
     @Test
     public void letterGradeByPartitioningTest() {
-        char gradeA =  LetterGrade.letterGrade(91);
+        char gradeA =  LetterGrade.letterGrade(95);
         assertEquals(gradeA, 'A');
-        char gradeB =  LetterGrade.letterGrade(89);
+        char gradeB =  LetterGrade.letterGrade(85);
         assertEquals(gradeB, 'B');
-        char gradeC =  LetterGrade.letterGrade(79);
+        char gradeC =  LetterGrade.letterGrade(75);
         assertEquals(gradeC, 'C');
-        char gradeD =  LetterGrade.letterGrade(69);
+        char gradeD =  LetterGrade.letterGrade(65);
         assertEquals(gradeD, 'D');
-        char gradeF =  LetterGrade.letterGrade(29);
+        char gradeF =  LetterGrade.letterGrade(25);
         assertEquals(gradeF, 'F');
         char gradeLessZero = LetterGrade.letterGrade(-1);
         assertEquals(gradeLessZero, 88);
@@ -27,7 +27,7 @@ public class letterGradeTest {
     public void letterGradeInImpossibleByBoundariesTest() {
         char gradeAInHeighestBoundary = LetterGrade.letterGrade(100);
         assertEquals(gradeAInHeighestBoundary, 'A');
-        char gradeAInLowestBoundary =  LetterGrade.letterGrade(100);
+        char gradeAInLowestBoundary =  LetterGrade.letterGrade(90);
         assertEquals(gradeAInLowestBoundary, 'A');
 
         char gradeBInHeighestBoundary =  LetterGrade.letterGrade(89);
